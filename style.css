@@ -1,0 +1,229 @@
+section {
+
+    width: 1050px;
+    /* Fixed width of 1,050px */
+    height: 1212px;
+    /* Height set to hug the content, at 1,212px */
+    left: 195px;
+    /* Left position set to 195px */
+    padding: 160px 0;
+    /* Padding: 160px top and bottom, 0px left and right */
+    gap: 80px;
+    margin: auto;
+    /* border: 1px solid  black; */
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    /* Gap property (if used for a grid or flex container) */
+}
+
+.section1 {
+    width: 691px;
+    height: auto;
+    /* "Hug" may imply auto height based on content */
+    gap: 10px;
+    margin: auto;
+
+}
+
+.h1 {
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin: auto;
+    cursor: pointer;
+    color: #23A6F0;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin: auto;
+    color: #252B42;
+}
+
+.p1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #737373;
+    margin: auto;
+}
+
+.section2 {
+    width: 710px;
+    height: auto;
+    margin: 5% auto;
+    display: flex;
+
+}
+
+.section2a {
+    width: 330px;
+    /* "Hug" may imply width based on content */
+    height: auto;
+    /* border: 1px solid black; */
+    margin: auto;
+    /* "Hug" may imply height based on content */
+}
+.section2a2{
+    display: flex;
+}
+.section2a2-p{
+    width: 100px;
+    height: 24px;
+    position: relative;
+    bottom: -3px;
+    left: -308px;
+    background-color: #E74040;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0px 2px 4px 0px #0000001A;
+    padding-inline: 10px;
+    padding-top: 4px;
+
+}
+.section2a2-lower{
+    width: 140px;
+    height: 40px;
+    position: relative;
+    top: 236px;
+    left: -294px;
+    display:flex;
+    justify-content: space-between;
+}
+.imgicon{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 44.78571319580078px;
+    background: #FFFFFF;
+    /* border: 1px solid black; */
+    /* position: relative;
+    top: 224px;
+    left: -293px; */
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.section2a1 {
+    width: 330px;
+    height: auto;
+    padding: 25px 25px 35px 25px;
+    gap: 10px;
+    /* border: 1px solid black; */
+    text-align: left;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-decoration: none;
+    color: #23A6F0;
+
+}
+
+.star {
+    width: 340px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.star1 {
+    width: 52px;
+    height: auto;
+    padding: 3px;
+    border-radius: 20px;
+    gap: 10px;
+    background: #252B42;
+    margin:  auto;
+   text-align: center;
+
+}
+
+.starimg {
+    color: white;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 15px;
+    letter-spacing: 0.20000000298023224px;
+}
+
+.hh {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.10000000149011612px;
+    color: #252B42;
+}
+
+.p2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+
+}
+
+.h6 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+}
+
+.layout {
+    width: 280px;
+    height: auto;
+    /* Height set to hug the content (46px) */
+    padding: 15px 0;
+    /* Padding: 15px top and bottom, 0px left and right */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.p2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
+
+}
+
+.newbtn {
+    width: auto;
+    /* Width set to hug the content (141.14px) */
+    height: auto;
+    /* Height set to hug the content (44px) */
+    padding: 10px 20px;
+    /* Padding: 10px top and bottom, 20px left and right */
+    border-radius: 37px;
+    border: 1px solid;
+    /* Specify border style (e.g., solid) */
+    gap: 10px;
+    border: 1px solid #23A6F0;
+    color: #23A6F0;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    cursor: pointer;
+
+
+}
